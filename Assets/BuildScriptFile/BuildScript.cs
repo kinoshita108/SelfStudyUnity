@@ -31,7 +31,7 @@ public class BuildScript : MonoBehaviour
         // ビルドの設定を行う
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = scenePaths; // ビルドするシーンのパスを指定
-        buildPlayerOptions.locationPathName = "D:/SelfStudyUnity/SelfStudyUnity_exe/SelfStudyUnity.exe"; // ビルド結果の保存先を指定
+        buildPlayerOptions.locationPathName = "D:/SelfStudyUnity/SelfStudyUnity_exe"; // ビルド結果の保存先を指定
         buildPlayerOptions.target = BuildTarget.StandaloneWindows64; // ビルドターゲットを指定
 
         // ビルドを実行
